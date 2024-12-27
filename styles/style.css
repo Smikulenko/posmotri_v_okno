@@ -135,6 +135,9 @@ input[type='text']:active {
 .search-form__label:has(.search-form__checkbox):hover{
   text-decoration: underline;
 }
+.search-form__label:has(.search-form__checkbox):active{
+  text-decoration: none;
+}
 
 input[type='checkbox'] + span {
   display: flex;
