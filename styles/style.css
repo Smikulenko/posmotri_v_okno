@@ -234,6 +234,10 @@ input[type='checkbox'] + span:active::after{
   color: currentColor;
 }
 
+.content__card-link_current{
+  background-color: rgba(84, 80, 80, 1);
+}
+
 .content__video-card{
   display: flex;
   align-items:flex-start
